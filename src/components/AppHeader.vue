@@ -10,31 +10,38 @@ export default {
 
 <template>
   <header>
-    <div class="logo-box">
-      <img src="../assets/img/dc-logo.png" alt="">
+    <div class="container-lg">
+      <div class="logo-box">
+        <img src="../assets/img/dc-logo.png" alt="">
+      </div>
+      <nav>
+        <ul>
+          <li><a href="">ELEMENTO LISTA</a></li>
+          <li><a href="">ELEMENTO LISTA</a></li>
+          <li><a href="">ELEMENTO LISTA</a></li>
+          <li><a href="">ELEMENTO LISTA</a></li>
+        </ul>
+      </nav>
     </div>
-    <nav>
-      <ul>
-        <li><a href="">ELEMENTO LISTA</a></li>
-        <li><a href="">ELEMENTO LISTA</a></li>
-        <li><a href="">ELEMENTO LISTA</a></li>
-        <li><a href="">ELEMENTO LISTA</a></li>
-      </ul>
-    </nav>
   </header>
 </template>
 
 <style lang="scss" scoped>
+  // Import general style
   @use '../styles/general.scss' as *;
 
   // custom properties for dimension
   $header-h: 120px;
   $li-border-w: 5px;
 
+
   header {
+    height: $header-h;
+  }
+
+  .container-lg {
     display: flex;
     justify-content: space-between;
-    height: $header-h;
 
     .logo-box,
     ul {
@@ -47,7 +54,7 @@ export default {
     }
 
     ul {
-      font-size: 0.9rem;
+      font-size: 0.7rem;
       font-weight: 600;
       height: 100%;
       display: flex;

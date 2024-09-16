@@ -54,7 +54,7 @@
 .container-lg {
   max-width: 900px;
   margin: 0 auto;
-  min-height: var(--mh-xl);
+  /* min-height: var(--mh-xl); */
   /* border: 3px dashed burlywood; */
 }
 
