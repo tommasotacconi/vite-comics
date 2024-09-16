@@ -1,5 +1,5 @@
 <script>
-import AppHeader from './components/AppFooter.vue'
+import AppHeader from './components/AppHeader.vue'
 import AppMain from './components/AppMain.vue'
 import AppFooter from './components/AppFooter.vue'
 
@@ -17,11 +17,16 @@ export default {
 </script>
 
 <template>
-  <AppHeader />
-  <AppMain />
-  <AppFooter />
+  <div class="container-lg">
+    <AppHeader />
+    <AppMain />
+    <AppFooter />
+  </div>
 </template>
 
-<style scoped>
+<style lang="scss">
+  @use './styles/utilities.css' as *;
+  @use './styles/general.scss' as *;
+
 
 </style>
