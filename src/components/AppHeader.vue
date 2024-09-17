@@ -2,7 +2,18 @@
 export default {
   data() {
     return {
-      
+      navItems: [
+        'characters',
+        'comics',
+        'movies',
+        'TV',
+        'games',
+        'collectibles',
+        'videos',
+        'fans',
+        'news',
+        'shop'
+      ]
     }
   }
 }
@@ -16,10 +27,7 @@ export default {
       </div>
       <nav>
         <ul>
-          <li><a href="">ELEMENTO LISTA</a></li>
-          <li><a href="">ELEMENTO LISTA</a></li>
-          <li><a href="">ELEMENTO LISTA</a></li>
-          <li><a href="">ELEMENTO LISTA</a></li>
+          <li v-for="navItem in navItems"><a href="">{{ navItem.toUpperCase() }}</a></li>
         </ul>
       </nav>
     </div>
@@ -32,7 +40,7 @@ export default {
 
   // custom properties for dimension
   $header-h: 120px;
-  $li-border-w: 5px;
+  $li-border-w: 4.8px;
 
 
   header {
@@ -58,7 +66,6 @@ export default {
       font-weight: 600;
       height: 100%;
       display: flex;
-      list-style-type: none;
 
       li {
         margin: 0 10px;

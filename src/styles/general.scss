@@ -6,13 +6,17 @@
 }
 
 /* Custom properties */
-$base-color: #346eff;
+$base-color: #3d77e3;
 
 body {
   // <weight>: Use a value from 200 to 700
   font-family: "Oswald", sans-serif;
   font-optical-sizing: auto;
   font-style: normal;
+}
+
+ul {
+  list-style-type: none;
 }
 
 a {
