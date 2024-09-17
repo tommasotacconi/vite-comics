@@ -24,4 +24,18 @@ export default {
 </template>
 
 <style scoped>
+  .card {
+    height: 100%;
+
+    img {
+      aspect-ratio: 1;
+      object-fit: cover;
+      object-position: top;
+    } 
+  }
+
+  h2 {
+    font-size: 0.8rem;
+    font-weight: 500;
+  }
 </style>

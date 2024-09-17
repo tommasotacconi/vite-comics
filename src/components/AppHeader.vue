@@ -52,20 +52,20 @@ export default {
     display: flex;
     justify-content: space-between;
 
-    .logo-box,
-    ul {
-      line-height: calc($header-h  - 2 * $li-border-w);      
+    .logo-box {
+      line-height: $header-h;
     }
-
+    
     img {
       height: 60%;
       vertical-align: middle;
     }
-
+    
     ul {
       font-size: 0.9rem;
       font-weight: 600;
       height: 100%;
+      line-height: calc($header-h  - 2 * $li-border-w);      
       display: flex;
 
       li {

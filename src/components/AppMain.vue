@@ -89,31 +89,58 @@ export default {
 <template>
   <main>
     <div class="container-lg">
-      <div class="row">
-        <div class="column" v-for="comic in comicsList">
+      <!-- Main contents -->
+      <div class="row g-1">
+        <div class="col" v-for="comic in comicsList">
           <AppMainCard
           :Thumb="comic.thumb"
           :Series="comic.series" />
         </div>
       </div>
+
+      <!-- Main load button -->
+      <button class="load-btn">LOAD MORE</button>
     </div>
   </main>
 </template>
 
 <style lang="scss" scoped>
+  @use '../styles/general.scss' as general-var;
+  
   main {
+    padding: 30px 0;
     min-height: 200px;
     font-size: 1.2rem;
     color: #fff;
+    text-align: center;
     background-color: #2f2f2f;
   }
 
-  .row {
+  main .row {
+    margin-top: 0;
+    margin-bottom: 0;
     display: flex;
     flex-wrap: wrap;
   }
 
-  .column {
+  .col {
     width: calc(100% / 6);
+  }
+
+  .load-btn {
+    padding: 6px 46px;
+    margin-top: 30px;
+    font-family: 'Open sans condensed';
+    font-weight: 600;
+    color: #fff;
+    border: 3px solid general-var.$base-color;
+    background-color: general-var.$base-color;
+    transition: background-color 1.5s;
+
+    font-size: 0.8rem;
+
+    &:hover {
+      background-color: #2f2f2f;      
+    }
   }
 </style>

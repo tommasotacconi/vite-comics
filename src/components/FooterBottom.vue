@@ -18,9 +18,7 @@ export default {
   <div class="footer-bottom">
     <div class="container-lg">
       <div class="button-box">
-        <button id="sign-up-btn">
-          SIGN-UP NOW
-        </button>
+        <button class="sign-up-btn">SIGN-UP NOW</button>
       </div>
       <section id="social">
         <h3>
@@ -55,7 +53,7 @@ export default {
     align-items: center;
   }
 
-  #sign-up-btn {
+  .sign-up-btn {
     padding: 10px 14px;
     color: #fff;
     border: 3px solid general-var.$base-color;
