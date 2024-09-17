@@ -23,8 +23,8 @@ export default {
 </template>
 
 <style lang="scss">
+  @use 'bootstrap-icons/font/bootstrap-icons.scss';
   @use './styles/utilities.css' as *;
   @use './styles/general.scss' as *;
-
 
 </style>
