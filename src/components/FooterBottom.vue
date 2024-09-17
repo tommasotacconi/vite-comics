@@ -35,7 +35,7 @@ export default {
 </template>
 
 <style lang="scss" scoped>
-  @use '../styles/general.scss' as *;
+  @use '../styles/general.scss' as general-var;
   @use 'bootstrap-icons/font/bootstrap-icons.css' as *;
   
   /* Custom properties */
@@ -57,11 +57,11 @@ export default {
   #sign-up-btn {
     padding: 10px 14px;
     color: #fff;
-    border: 4px solid $base-color;
+    border: 4px solid general-var.$base-color;
     background-color: transparent;
 
     &:hover {
-      background-color: $base-color;
+      background-color: general-var.$base-color;
       border-color: #fff;
       transition: background-color 20s;
       transition: border-color 1s;
@@ -76,7 +76,7 @@ export default {
   #social {
     h3 {
       margin-right: 20px;
-      color: $base-color;
+      color: general-var.$base-color;
     }
 
     #social-link a {

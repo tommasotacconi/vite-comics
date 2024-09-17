@@ -17,8 +17,6 @@ export default {
 </template>
 
 <style lang="scss" scoped>
-  @use '../styles/general.scss' as *;
-  
   main {
     min-height: 200px;
     font-size: 1.2rem;

@@ -36,7 +36,7 @@ export default {
 
 <style lang="scss" scoped>
   // Import general style
-  @use '../styles/general.scss' as *;
+  @use '../styles/general.scss' as general-var;
 
   // custom properties for dimension
   $header-h: 120px;
@@ -72,10 +72,10 @@ export default {
         border-block: $li-border-w solid transparent;
         
         &:hover {
-          border-bottom-color: $base-color;
+          border-bottom-color: general-var.$base-color;
           
           a {
-            color: $base-color;
+            color: general-var.$base-color;
           }
         }
       }
