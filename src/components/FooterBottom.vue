@@ -43,7 +43,8 @@ export default {
 
   .footer-bottom {
     height: 100px;
-    background-color: #666;
+    color: #333;
+    background-color: currentColor;
   }
 
   .container-lg {
@@ -59,12 +60,11 @@ export default {
     color: #fff;
     border: 4px solid general-var.$base-color;
     background-color: transparent;
+    transition: background-color 2s;
 
     &:hover {
       background-color: general-var.$base-color;
       border-color: #fff;
-      transition: background-color 20s;
-      transition: border-color 1s;
     }
   }
 
@@ -80,8 +80,8 @@ export default {
     }
 
     #social-link a {
-      color: #000;
-      background-color: #aaa;
+      color: currentColor;
+      background-color: #888;
       font-size: 1.2rem;
       display: inline-block;
       margin-right: 5px;
