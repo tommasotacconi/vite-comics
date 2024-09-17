@@ -11,7 +11,7 @@ export default {
 <template>
   <main>
     <div class="container-lg">
-      <p>--> Main content goes here<--</p>
+      <p>-->Main content goes here<--</p>
     </div>
   </main>
 </template>
@@ -21,7 +21,7 @@ export default {
     min-height: 200px;
     font-size: 1.2rem;
     color: #fff;
-    background-color: #333;
+    background-color: #2f2f2f;
   }
 
   p {

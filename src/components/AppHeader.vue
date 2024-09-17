@@ -45,6 +45,7 @@ export default {
 
   header {
     height: $header-h;
+    font-family: 'Open sans condensed';
   }
 
   .container-lg {
@@ -62,7 +63,7 @@ export default {
     }
 
     ul {
-      font-size: 0.7rem;
+      font-size: 0.9rem;
       font-weight: 600;
       height: 100%;
       display: flex;

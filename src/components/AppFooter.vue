@@ -22,5 +22,8 @@ export default {
   </footer>
 </template>
 
-<style scoped>
+<style lang="scss" scoped>
+  footer {
+    font-family: 'Open Sans Condensed';
+  }
 </style>

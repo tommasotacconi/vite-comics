@@ -93,16 +93,21 @@ export default {
     section {
       width: 15%;
       padding: 10px 0;
-      font-size: 0.8rem;
+      font-size: 0.9rem;
 
       h3 {
         color: #fff;
         font-size: 1.3rem;
-        font-weight: 500;
+        font-weight: 600;
+        margin-bottom: 10px;
       }
       
-      a {
-        color: #ccc;
+      li {
+        margin-bottom: 2px;
+
+        a {
+          color: #ccc;
+        }
       }
     };
   }

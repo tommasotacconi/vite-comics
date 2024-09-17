@@ -58,9 +58,11 @@ export default {
   #sign-up-btn {
     padding: 10px 14px;
     color: #fff;
-    border: 4px solid general-var.$base-color;
+    border: 3px solid general-var.$base-color;
     background-color: transparent;
     transition: background-color 2s;
+
+    font-family: 'Opens sans condensed', sans-serif;
 
     &:hover {
       background-color: general-var.$base-color;
