@@ -41,7 +41,7 @@ export default {
 
   .footer-bottom {
     height: 100px;
-    color: #333;
+    color: #3a3a3a;
     background-color: currentColor;
   }
 

@@ -113,7 +113,7 @@ export default {
     font-size: 1.2rem;
     color: #fff;
     text-align: center;
-    background-color: #2f2f2f;
+    background-color: #222;
   }
 
   main .row {
@@ -140,7 +140,7 @@ export default {
     font-size: 0.8rem;
 
     &:hover {
-      background-color: #2f2f2f;      
+      background-color: #222;      
     }
   }
 </style>

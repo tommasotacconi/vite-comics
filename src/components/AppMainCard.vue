@@ -27,6 +27,8 @@ export default {
   .card {
     height: 100%;
 
+    text-align: left;
+
     img {
       aspect-ratio: 1;
       object-fit: cover;
